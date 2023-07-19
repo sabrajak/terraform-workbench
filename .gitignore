@@ -116,6 +116,6 @@ crash.log
 /osv/dev01/terraform.tfstate
 /osv/dev01/terraform.tfstate.backup
 /osv/dev01/tfplan.txt
-
+backup
 # EOF
 

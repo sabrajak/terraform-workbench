@@ -15,7 +15,3 @@ resource "aws_sqs_queue" "terraform_queue" {
 locals {
   max_message_size = 2047
 }
-
-output "sqs_outputs" {
-  value = aws_sqs_queue.terraform_queue.name
-}
