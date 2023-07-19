@@ -1,0 +1,121 @@
+# This .gitignore prevents generated content from being committed to the repository.
+
+# ----------
+# IDE stuff.
+# ----------
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings
+.wtpmodules
+.factorypath
+.metadata
+.~lock.*
+.buildpath
+.idea
+*.ipr
+*.iml
+*.iws
+nbproject
+composer.lock
+
+# ------------
+# Output dirs.
+# ------------
+bin
+classes
+logs
+target
+package
+
+# ----------
+# Log files.
+# ----------
+*.log
+
+# ----------
+# Databases.
+# ----------
+*.sqlite
+
+# --------------------------
+# Maven, Gradle and plugins.
+# --------------------------
+.gradle
+pom.xml.tag
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# -----------------
+# Compiled sources.
+# -----------------
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# --------------------
+# Compressed packages.
+# --------------------
+# It's usually advisable to unpack such files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.lzma
+*.lzma2
+*.rar
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.zip
+
+# -------------
+# OS generated.
+# -------------
+.DS_Store
+.DS_Store?
+db/.DS_Store
+node_modules/
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# --------
+# Backups.
+# --------
+*.bak
+*.swp
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Terraform Crash log files
+crash.log
+
+**/.terragrunt-cache/*
+
+/osv/dev01/.terraform.lock.hcl
+/osv/dev01/terraform.tfstate
+/osv/dev01/terraform.tfstate.backup
+/osv/dev01/tfplan.txt
+
+# EOF
+
