@@ -1,6 +1,6 @@
 #using a local module
 module "sqs_module" {
-  source        = "modules/sqs"
+  source        = "./modules/sqs"
   # Overriding the delay seconds
   delay_seconds = 80
 }

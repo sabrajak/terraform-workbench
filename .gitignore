@@ -112,10 +112,10 @@ crash.log
 
 **/.terragrunt-cache/*
 
-/osv/dev01/.terraform.lock.hcl
-/osv/dev01/terraform.tfstate
-/osv/dev01/terraform.tfstate.backup
-/osv/dev01/tfplan.txt
+/.terraform.lock.hcl
+/terraform.tfstate
+/terraform.tfstate.backup
+/tfplan.txt
 backup
 # EOF
 
