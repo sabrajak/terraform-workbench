@@ -117,5 +117,8 @@ crash.log
 /terraform.tfstate.backup
 /tfplan.txt
 backup
+
+.idea
+terraform-workbench.iml
 # EOF
 
