@@ -4,10 +4,10 @@ resource "aws_sqs_queue" "terraform_queue" {
   fifo_queue                  = true
   content_based_deduplication = true
   #can be modified in a project
-  delay_seconds               = var.delay_seconds
+  delay_seconds = var.delay_seconds
   # cannot be modified in a project
-  max_message_size            = local.max_message_size
-  tags                        = {
+  max_message_size = local.max_message_size
+  tags = {
     track = "osv"
   }
 }

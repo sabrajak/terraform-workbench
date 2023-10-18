@@ -1,19 +1,24 @@
-#variable.tf define the variables
-
-variable "environment" {
-  type = map(any)
-
-  default = {
-    dev  = "osv-dev",
-    test = "osv-test"
-  }
+#sqs
+variable "delay_seconds" {
+  default = 90
 }
 
+#dynamodb
 variable "rds_clusters" {
   description = "RDS clusters name"
   type        = list(string)
   default     = ["campus-network", "cloud-network"]
 }
+
+
+
+
+
+
+
+
+
+
 
 /*
 Way 1 to implement variables:
