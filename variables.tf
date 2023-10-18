@@ -1,10 +1,18 @@
+#variable.tf define the variables
+
 variable "environment" {
-  type = map
+  type = map(any)
 
   default = {
     dev  = "osv-dev",
     test = "osv-test"
   }
+}
+
+variable "rds_clusters" {
+  description = "RDS clusters name"
+  type        = list(string)
+  default     = ["campus-network", "cloud-network"]
 }
 
 /*
